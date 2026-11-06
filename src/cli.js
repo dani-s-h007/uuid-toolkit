@@ -45,7 +45,7 @@ export async function runCli(argv = process.argv.slice(2)) {
       if (values.json) {
         console.log(JSON.stringify(info, null, 2));
       } else {
-        console.log('\n🔍 Identifier Inspection');
+        console.log('\n--- Identifier Inspection ---');
         console.log('============================================================');
         console.log(`Canonical:     ${info.canonical || info.raw}`);
         console.log(`Type:          ${info.type} ${info.version || ''}`);

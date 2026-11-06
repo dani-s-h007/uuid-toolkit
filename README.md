@@ -1,4 +1,4 @@
-# uuid-toolkit 🆔
+# uuid-toolkit
 
 [![CI](https://github.com/dani-s-h007/uuid-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/dani-s-h007/uuid-toolkit/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +11,7 @@ Modern database systems (PostgreSQL 17, MySQL, SQLite, MongoDB) strongly benefit
 
 ---
 
-## ✨ Features
+## Features
 
 - **RFC 9562 UUIDv7 Support**: Generates millisecond-precision, time-ordered 128-bit identifiers that cluster optimally in B-tree database indexes.
 - **Deep Metadata Inspection**: Automatically detects format and decodes embedded Unix timestamps, ISO UTC dates, and entropy components.
@@ -22,7 +22,7 @@ Modern database systems (PostgreSQL 17, MySQL, SQLite, MongoDB) strongly benefit
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Run on-demand with npx
@@ -34,7 +34,7 @@ npm install -g uuid-toolkit
 
 ---
 
-## 🛠️ CLI Usage
+## CLI Usage
 
 ### Generate Modern UUIDv7
 ```bash
@@ -72,7 +72,7 @@ uuid-toolkit -t uuidv7 -n 5 --json
 
 ---
 
-## 💻 Programmatic TypeScript API
+## Programmatic TypeScript API
 
 ```typescript
 import { generateUuidV7, inspectId, ulidToUuid } from 'uuid-toolkit';
@@ -88,7 +88,7 @@ console.log(`Epoch ms:   ${info.timestampMs}`);
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 npm test
@@ -96,7 +96,7 @@ npm test
 
 ---
 
-## 📄 License
+## License
 
 MIT © Essentials Toolkit Authors
 

@@ -6,7 +6,7 @@
 import { generateUuidV7, generateUlid, generateNanoId } from '../src/generators.js';
 import { inspectId, ulidToUuid } from '../src/inspector.js';
 
-console.log('\n🚀 Starting uuid-toolkit Interactive Demo...\n');
+console.log('\n=== [DEMO] Starting uuid-toolkit ===\n');
 
 console.log('1. Generating Time-Ordered Identifiers:');
 const v7 = generateUuidV7();
@@ -29,5 +29,5 @@ console.log('------------------------------------------------------------\n');
 console.log('3. Lossless Conversion ULID -> UUID:');
 const converted = ulidToUuid(ulid);
 console.log(`ULID: ${ulid} -> UUID: ${converted}`);
-console.log('\n🎉 Demo completed successfully!\n');
+console.log('\n[SUCCESS] Demo completed successfully.\n');
 
