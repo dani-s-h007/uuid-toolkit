@@ -1,0 +1,47 @@
+{
+  "name": "uuid-toolkit",
+  "version": "1.0.0",
+  "description": "Universal modern ID inspector, decoder & generator (UUIDv7 RFC 9562, ULID, NanoID, UUIDv4).",
+  "type": "module",
+  "main": "src/generators.js",
+  "types": "index.d.ts",
+  "bin": {
+    "uuid-toolkit": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "demo": "node demo/run-demo.js",
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "uuid",
+    "uuidv7",
+    "uuidv4",
+    "ulid",
+    "nanoid",
+    "time-ordered-id",
+    "rfc9562",
+    "database-indexing",
+    "cli"
+  ],
+  "author": "dani-s-h007 <shanusathar@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dani-s-h007/uuid-toolkit.git"
+  },
+  "homepage": "https://github.com/dani-s-h007/uuid-toolkit#readme",
+  "bugs": {
+    "url": "https://github.com/dani-s-h007/uuid-toolkit/issues"
+  }
+}
